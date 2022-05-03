@@ -13,4 +13,20 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.Morart.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Morart.NoActionBar.FullScreen">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionMenuTextColor">@color/color_option_menu</item>
+    </style>
+    
+    <style name="Theme.Morart.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light"></style>
+    <style name="Theme.Morart.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"></style>
+    
 </resources>
